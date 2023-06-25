@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TUMA@service</title>
+    
+</head>
+<body>
+    <section class="biginer_div"></section>
+    <section class="head_container">
+        <h1><span id="tuma">Tuma</span><span id="T_s">S</span>ervice </h1>
+        <!-- <h5>sendmail<span id="icon">&</span></h5> -->
+    </section>
+    <section class="main_container">
+        <div class="stater">
+            <div class="stater_scripture">
+                <h2>Tuma is:</h2>
+                <div>
+                    <ul>
+                        <li><span id="ico_A"><span id="ico_B">*</span></span>a deliver service</li>
+                        <li><span id="ico_A"><span id="ico_B">*</span></span>a messagery service</li>
+                        <li><span id="ico_A"><span id="ico_B">*</span></span>a bring out service</li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+        <div class="form_container">
+            <div id="A_link"><a href="index.html">accueil</a> </div>
+            <div class="form">
+                <h1>connectez vous</h1>
+                <div class="form_widgets">
+                    <input type="text" id="u_name" placeholder="user name or mail">
+                    <input type="text" id="u_pw" placeholder="user password">
+                </div>
+                <div class="con_inscr">
+                    <h5> <button id="con" onclick="acceder()">se connecter</button> <a href="inscription.html" id="inscript">s'inscrir</a></h5>
+                </div>
+                <label id="erreur" ></label>
+
+            </div>
+        </div>
+    </section>
+    <section class="footer_container">
+        <p>DesignedBy-@millionnaireMadjaliwa</p>
+    </section>
+
+
+    <script type="text/javascript">
+        
+        function acceder(){
+        let u_nam=document.getElementById("u_name").value;
+        let u_pwd=document.getElementById("u_pw").value;
+        let errer=document.getElementById("erreur");
+        if(u_nam!="" && u_pwd!=""){
+            document.location.href="operations_recquises.html";
+        }
+        else{
+            errer.style.color="red";
+            errer.innerHTML="renseigner les champs";
+            
+        }
+            
+        }
+    </script>
+</body>
+</html>

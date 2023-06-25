@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TUMA@service</title>
+</head>
+<body>
+    <section class="biginer_div"></section>
+    <section class="head_container">
+        <h1><span id="tuma">Tuma</span><span id="T_s">S</span>ervice </h1>
+        <!-- <h5>sendmail<span id="icon">&</span></h5> -->
+    </section>
+    <section class="main_container">
+        <div class="stater">
+            <div class="stater_scripture">
+                <h2>Tuma is:</h2>
+                <div>
+                    <ul>
+                        <li><span id="ico_A"><span id="ico_B">*</span></span>a deliver service</li>
+                        <li><span id="ico_A"><span id="ico_B">*</span></span>a messagery service</li>
+                        <li><span id="ico_A"><span id="ico_B">*</span></span>a bring out service</li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+        <div class="form_contain">
+            <div id="A_link"><a href="operations_recquises2.html" id="op">continuer</a> <a href="index.html">accueil</a></div>
+            <div class="options">
+                <div class="required_options">
+                    <div >
+                        <button id="option1" type="button">
+                            creer_bon
+                        </button>
+                    </div>
+                    <div >
+                        <button id="option2" type="button">
+                            modifier
+                        </button>
+                    </div>
+                    <div >
+                        <button id="option3" type="button">
+                            voir_details
+                        </button>
+                    </div>
+                    <div >
+                        <button id="option4" type="button">
+                            voir_bons
+                        </button>
+                    </div>
+                    <div>
+                        <button type="button" id="option5">
+                            annuler
+                        </button>
+                    </div>
+                </div>
+                <div class="show" >
+                    <div class="creer_bon" id="c_b" hidden>
+                        <input type="date" >
+                        <input type="text" placeholder="nom destinataire">
+                        <input type="mail" placeholder="mail du destinataire">
+                        <input type="text" placeholder="description du collis">
+                        <input type="text" placeholder="quantite">
+                        <input type="text" placeholder="destination">
+                        <button>creer bon</button>
+                    </div>
+                    <div class="voir_details" id="v_d" hidden>
+                        <div>    
+                            <p> 
+                                <h3>date: 13/10/2023</h3>
+                                <h3>destinataire: million madjaliwa</h3>
+                                <h3>mail destinataire: millionmadjaliwa@gmail <br> .com</h3>
+                                <h3>produit: farine</h3>
+                                <h3>quantite: 100kg</h3>
+                                <h3>destination: kinshasa</h3>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="list_bons" id="l_b" hidden >
+                <table border="3" >
+                    <thead>
+                        <tr>
+                            <th>date d'ordre de livraison</th>
+                            <th>nom destinataire</th>
+                            <th>mail destinataire</th>
+                            <th>produit dans le colli</th>
+                            <th>quantite</th>
+                            <th>destination</th>
+
+
+                        </tr>
+                        
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1/10/2020</td>
+                            <td>millionaire</td>
+                            <td>millionaire@gmail.com</td>
+                            <td>farine mais</td>
+                            <td>70kg</td>
+                            <td>kinshasa</td>
+                            
+
+                        </tr>
+                        <tr>
+                            <td>1/10/2020</td>
+                            <td>esther</td>
+                            <td>esther@gmail.com</td>
+                            <td>farine manioc</td>
+                            <td>30kg</td>
+                            <td>kinshasa</td>
+                           
+
+                        </tr>
+                        <tr>
+                            <td>1/10/2020</td>
+                            <td>stephane</td>
+                            <td>stephane@gmail.com</td>
+                            <td>pomme de terre</td>
+                            <td>30kg</td>
+                            <td>kinshasa</td>
+                           
+
+                        </tr>
+                        <tr>
+                            <td>1/10/2020</td>
+                            <td>james</td>
+                            <td>james@gmail.com</td>
+                            <td>pomme de terre</td>
+                            <td>30kg</td>
+                            <td>kinshasa</td>
+                            
+
+                        </tr>
+                        <tr>
+                            <td>1/10/2020</td>
+                            <td>fadhili</td>
+                            <td>fadhili@gmail.com</td>
+                            <td>pomme de terre</td>
+                            <td>30kg</td>
+                            <td>kinshasa</td>
+                            
+
+                        </tr>
+                        <tr>
+                            <td>1/10/2020</td>
+                            <td>seraphin</td>
+                            <td>seraphin@gmail.com</td>
+                            <td>pomme de terre</td>
+                            <td>30kg</td>
+                            <td>kinshasa</td>
+                            
+
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+        </div>
+    </section>
+    <section class="footer_container">
+        <p>DesignedBy-@millionnaireMadjaliwa</p>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
