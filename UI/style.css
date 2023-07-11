@@ -577,3 +577,14 @@
 #A_link #op{
     margin-right: 15px;
 }
+.welcome{
+    width: 100%;
+    height: 50px;
+    font-size: 40px;
+    color: black;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
